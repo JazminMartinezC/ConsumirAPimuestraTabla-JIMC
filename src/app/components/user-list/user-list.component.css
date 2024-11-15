@@ -1,0 +1,66 @@
+
+  /* Contenedor principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+/* Título de la página */
+.title {
+  text-align: center;
+  color: #ffffff;  /* Azul */
+  margin-bottom: 20px;
+}
+
+/* Estilo de la tabla */
+.table-container {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #ffffff;  /* Azul claro */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+mat-table {
+  width: 100%;
+  background-color: #fa0000;
+}
+
+/* Paginador al final */
+mat-paginator {
+  margin-top: 20px;
+  background-color: #f8f8f8;
+  color: #000000;
+  
+}
+
+/* Estilo para las celdas de la tabla */
+.mat-header-cell, .mat-cell {
+  text-align: center;
+}
+
+.mat-header-cell {
+  background-color: #ff0000;  /* Azul */
+  color: white;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium';
+}
+
+.mat-row {
+  background-color: #ffffff;
+}
+
+.mat-row:hover {
+  background-color: #ffffff;
+}
+
+/* Estilo para el filtro */
+.mat-form-field {
+  margin-bottom: 20px;
+  width: 300px;
+  border-radius: 90px;
+}
